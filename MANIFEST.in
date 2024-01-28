@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include salesforce_api *.css
+recursive-include salesforce_api *.csv
+recursive-include salesforce_api *.html
+recursive-include salesforce_api *.ico
+recursive-include salesforce_api *.js
+recursive-include salesforce_api *.json
+recursive-include salesforce_api *.md
+recursive-include salesforce_api *.png
+recursive-include salesforce_api *.py
+recursive-include salesforce_api *.svg
+recursive-include salesforce_api *.txt
+recursive-exclude salesforce_api *.pyc
